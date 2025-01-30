@@ -1,0 +1,29 @@
+.footer-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+    span{
+        font-size: 2rem;
+        color: white;
+        
+    }
+
+
+nav div {
+    margin: 0 10px;
+}
+
+a {
+    font-size: 24px; /* Tamanho do ícone */
+    color: #fffcfc; /* Cor do ícone */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0077b5; /* Cor de hover para LinkedIn */
+}
+
+a:hover i {
+    transform: scale(1.1); /* Efeito de aumento no hover */
+}
