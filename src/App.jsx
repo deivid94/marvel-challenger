@@ -1,19 +1,17 @@
-import './App.css'
-import Footer from './components/Footer/footer'
-import Header from './components/Header/heder'
-import Main from './components/Main/main'
-import ApiService from './service/apiService'
+ import './styles/App.css'
+import GetCharactersApi from './service/CharactersApi'
+import Header from './components/Header'
+
 
 function App() {
 
 
   return ( 
-    <div className='container'>
-    <ApiService/>  
-
-      <Header />
-      <Main/>
-      <Footer/>
+    <div>
+      <Header/>
+      <GetCharactersApi/>
+      
+   
     </div>
   )
     
