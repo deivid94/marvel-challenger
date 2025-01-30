@@ -2,11 +2,45 @@
     max-width: 1280px;
     text-align: center;
     padding: 20px;
+
+    div:nth-child(1){
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
     h1 {
+      display: flex;
       font-size: 3rem;
     }
+      input {
+        border-radius: 8px;
+        display: flex;
+        width: 250px;
+        height: 30px;
+        border: 1px solid #ccc;
+        background-color: #333;
+        font-size: 14px;
+        color: #ccc;
+        text-align: center;
+        
+       
+      }
 
+      input::placeholder {
+        color: #747171;
+        opacity: 0.7;
+        text-align: center;
+        font-weight: bold;
+        
+        
+      }
+
+
+      
+      
   }
+
+
   
   .character-list {
     display: flex;
@@ -46,7 +80,6 @@
     background-color: rgba(236, 29, 36, 0.9); 
     color: white; 
     font-size: 16px;
-    font-weight: bold;
     text-transform: uppercase; 
     padding: 10px; 
     text-align: left; 
@@ -54,4 +87,10 @@
     font-family: 'Bangers', cursive; 
     letter-spacing: 2px; 
   }
+
+
+  .character-loading {
+    font-size: 4rem;
+    
+  } 
   
