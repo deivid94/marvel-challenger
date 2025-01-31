@@ -1,4 +1,4 @@
-# Marvel Character Search
+# Marvel Heroes Search
 
 Este projeto é uma aplicação React que permite pesquisar, visualizar e editar personagens do universo Marvel. Ele utiliza a [A API da Marvel](https://developer.marvel.com/)
  para carregar dados dos personagens e exibi-los de forma interativa.
