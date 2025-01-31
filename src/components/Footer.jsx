@@ -1,19 +1,25 @@
 import '../styles/Footer.css';
+import icoGithub from '../assets/github.svg'
+import icoLinkdin from '../assets/linkedin.svg'
+
 
 function Footer() {
     return (
         <div className="footer-container">
             <nav>
-                <span>Developed by Deivid Martins</span>
                 <div>
-                    <a href="https://www.linkedin.com" target="_blank">
-                        <i className="fab fa-linkedin"></i> 
+                <span>Developed by Deivid Martins</span>
+                </div>
+                
+                <div>
+                    <a href="https://github.com/deivid94"  target="_blank">
+                       <img src={icoGithub} alt="logo github" />
                     </a>
                 </div>
 
                 <div>
-                    <a href="https://github.com" target="_blank">
-                        <i className="fab fa-github"></i> 
+                    <a href="https://www.linkedin.com/in/deivid-martins1994/" target="_blank">
+                        <img src={icoLinkdin} alt="logo linkedin" />
                         
                     </a>
                 </div>

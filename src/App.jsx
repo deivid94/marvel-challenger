@@ -12,8 +12,6 @@ function App() {
       <Header/>
       <GetCharactersApi/>
       <Footer />
-      
-   
     </div>
   )
     

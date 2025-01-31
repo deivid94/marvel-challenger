@@ -1,5 +1,6 @@
 .footer-container {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     padding: 20px;
 
@@ -10,21 +11,22 @@
     }
 
 
-nav div {
+nav {
+    display:flex ;
+    align-items: center;
+    
+}
+   
+
+    div {
     margin: 0 10px;
+    
+
+    }
+
+    img:hover {
+        transform: scale(1.05); 
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2); 
+    }
 }
 
-a {
-    font-size: 24px; /* Tamanho do ícone */
-    color: #fffcfc; /* Cor do ícone */
-    text-decoration: none;
-}
-
-a:hover {
-    color: #0077b5; /* Cor de hover para LinkedIn */
-}
-
-a:hover i {
-    transform: scale(1.1); /* Efeito de aumento no hover */
-}
-}

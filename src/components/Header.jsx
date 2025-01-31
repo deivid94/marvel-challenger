@@ -1,4 +1,5 @@
 import '../styles/Header.css'
+import logoMarvel from '../assets/marvel.png'
 
 
 function Header (){
@@ -6,11 +7,11 @@ function Header (){
         <div className="header-container">
             <nav>
                 <div>
-                    <h1>Marvel Atom Challenger</h1>
+                    <h1>Marvel Heroes Search</h1>
                     </div>
 
                 <div>
-                <h1>Menu</h1>
+                <img src={logoMarvel} alt="logo marvel estudios" />
                 </div>
             </nav>
 
