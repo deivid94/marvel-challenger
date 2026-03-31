@@ -216,16 +216,10 @@ Distribuído sob a licença **MIT**. Veja [`LICENSE`](./LICENSE) para mais infor
 
 ---
 
-## 📬 Contato
 
-**Seu Nome** — [@seu_twitter](https://twitter.com/seu_twitter) — seu@email.com
-
-🔗 **Projeto:** [https://github.com/seu-usuario/marvel-character-search](https://github.com/seu-usuario/marvel-character-search)
-
----
 
 <div align="center">
-  <sub>Feito com ❤️ e muito ☕ por <a href="https://github.com/seu-usuario">Seu Nome</a></sub>
+
   <br/>
   <sub>Dados fornecidos pela <a href="https://developer.marvel.com">Marvel API</a> © 2024 MARVEL</sub>
 </div>
